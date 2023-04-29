@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./Profile.module.scss";
+import styles from "./Summary.module.scss";
 import { Card } from "../Common/Card/Card";
 
-export const Profile = () => {
+export const Summary = () => {
   return (
-    <Card className={styles.container}>
-      <div className={styles.container}>
+    <Card center={true} className={`${styles.container}`}>
+      <div className={styles.personal_container}>
         <img
           src="https://i.ibb.co/W37T2sJ/circle-cropped.png"
           alt="Profile"
@@ -16,7 +16,7 @@ export const Profile = () => {
           <h2>Software Developer</h2>
         </div>
       </div>
-      <h2>Profile</h2>
+      <h1>Summary</h1>
       <p>
         I am an experienced software engineer. I am passionate about technology
         and constantly seek to improve my skills and knowledge. With a proactive

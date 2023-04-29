@@ -49,7 +49,7 @@ export const ExperienceList = () => {
   ];
   return (
     <Card className={styles.container}>
-      <h2>Experience</h2>
+      <h1>Experience</h1>
       {experiences.map((experience) => (
         <ExperienceItem
           key={experience.title}

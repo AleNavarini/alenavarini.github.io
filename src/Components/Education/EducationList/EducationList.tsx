@@ -19,7 +19,7 @@ export const EducationList = () => {
   ];
   return (
     <Card className={styles.container}>
-      <h2>Education</h2>
+      <h1>Education</h1>
       {educationItems.map((educationItem) => (
         <EducationItem
           title={educationItem.title}

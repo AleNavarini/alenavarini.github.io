@@ -2,8 +2,17 @@ import React from "react";
 import DefaultProps from "../../../Utils/Props";
 import styles from "./Card.module.scss";
 
-export const Card = (props: DefaultProps) => {
+interface CardProps extends DefaultProps {
+  center?: boolean;
+}
+export const Card = (props: CardProps) => {
   return (
-    <div className={`${styles.card} ${props.className}`}>{props.children}</div>
+    <div
+      className={`${styles.card} ${props.className} ${
+        props.center && styles.card_center
+      }`}
+    >
+      {props.children}
+    </div>
   );
 };
