@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import Container from "./Components/Common/Container";
+import { MainColumn } from "./Components/Common/MainColumn/MainColumn";
+import { SideBar } from "./Components/Common/SideBar/SideBar";
+import Container from "./Components/Common/Container/Container";
 
 function App() {
   return (
