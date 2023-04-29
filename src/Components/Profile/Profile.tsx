@@ -4,7 +4,7 @@ import { Card } from "../Common/Card/Card";
 
 export const Profile = () => {
   return (
-    <Card>
+    <Card className={styles.container}>
       <div className={styles.container}>
         <img
           src="https://i.ibb.co/W37T2sJ/circle-cropped.png"

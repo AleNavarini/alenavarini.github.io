@@ -1,11 +1,32 @@
 import React from "react";
-import styles from "./Education.module.scss";
+import styles from "./EducationList.module.scss";
 import { Card } from "../../Common/Card/Card";
+import { EducationItem } from "../EducationItem/EducationItem";
 
+type EducationItemType = {
+  title: string;
+  period: string;
+  description: string;
+};
 export const EducationList = () => {
+  const educationItems: Array<EducationItemType> = [
+    {
+      title: "Information Systems Engineering",
+      period: "2017 - 2023",
+      description:
+        "Information Systems Engineer. Universidad Tecnológica Nacional FRRO.",
+    },
+  ];
   return (
-    <Card>
+    <Card className={styles.container}>
       <h2>Education</h2>
+      {educationItems.map((educationItem) => (
+        <EducationItem
+          title={educationItem.title}
+          period={educationItem.period}
+          description={educationItem.description}
+        />
+      ))}
     </Card>
-  )
+  );
 };
