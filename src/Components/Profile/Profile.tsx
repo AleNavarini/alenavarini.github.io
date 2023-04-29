@@ -16,17 +16,16 @@ export const Profile = () => {
           <h2>Software Developer</h2>
         </div>
       </div>
-      <h2 >Profile</h2>
+      <h2>Profile</h2>
       <p>
-        I am an experienced software engineer. I am passionate about
-        technology and constantly seek to improve my skills and knowledge.
-        With a proactive and solution-oriented approach, I thrive in
-        challenging environments and excel at problem-solving. I have a
-        natural curiosity for learning and enjoy exploring emerging trends
-        in the field. I have a natural curiosity for learning and am
-        particularly drawn to emerging areas such as Data Science and
-        Machine Learning. I am committed to developing my expertise and have
-        pursued various projects and training opportunities to gain
+        I am an experienced software engineer. I am passionate about technology
+        and constantly seek to improve my skills and knowledge. With a proactive
+        and solution-oriented approach, I thrive in challenging environments and
+        excel at problem-solving. I have a natural curiosity for learning and
+        enjoy exploring emerging trends in the field. I have a natural curiosity
+        for learning and am particularly drawn to emerging areas such as Data
+        Science and Machine Learning. I am committed to developing my expertise
+        and have pursued various projects and training opportunities to gain
         practical knowledge.
       </p>
     </Card>
