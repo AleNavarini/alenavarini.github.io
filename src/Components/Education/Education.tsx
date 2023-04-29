@@ -1,8 +1,6 @@
-import React from 'react'
-import styles from './Education.module.scss'
+import React from "react";
+import styles from "./Education.module.scss";
 
 export const Education = () => {
-  return (
-    <div>Education</div>
-  )
-}
+  return <div>Education</div>;
+};

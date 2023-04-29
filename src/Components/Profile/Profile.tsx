@@ -1,8 +1,6 @@
-import React from 'react'
-import styles from './Profile.module.scss'
+import React from "react";
+import styles from "./Profile.module.scss";
 
 export const Profile = () => {
-  return (
-    <div>Profile</div>
-  )
-}
+  return <div>Profile</div>;
+};
