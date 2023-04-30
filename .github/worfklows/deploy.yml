@@ -1,0 +1,22 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # or whichever branch you want to deploy from
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build app
+        run: yarn build
+
+      - name: Deploy app
+        run: yarn deploy
