@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ExperienceItem.module.scss";
-import DefaultProps from "../../../Utils/Props";
+import DefaultProps from "../../../../Utils/Props";
 
 interface ExperienceItemProps extends DefaultProps {
   title: string;

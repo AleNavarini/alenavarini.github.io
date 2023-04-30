@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Summary.module.scss";
-import { Card } from "../Common/Card/Card";
+import { Card } from "../../Common/Card/Card";
 
 export const Summary = () => {
   return (
