@@ -4,9 +4,9 @@ import { Card } from "../../Common/Card/Card";
 
 export const Language = () => {
   return (
-    <Card>
+    <Card className={styles.container}>
       <h1>Languages</h1>
-      <ul>
+      <ul className={styles.list}>
         <li>Spanish: Native</li>
         <li>English: C1 (certified)</li>
         <li>German: B1 (certified)</li>
