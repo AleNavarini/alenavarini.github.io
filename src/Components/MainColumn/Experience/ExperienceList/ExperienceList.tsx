@@ -11,7 +11,7 @@ type Experience = {
 export const ExperienceList = () => {
   const experiences: Array<Experience> = [
     {
-      title: "Backend & DevOps - AgileEngine",
+      title: "Backend Developer & DevOps - AgileEngine",
       period: "2022 - To the present",
       activities: [
         "Maintained and developed backend applications using Python, achieving optimized ETL pipelines through Airflow DAGs",
