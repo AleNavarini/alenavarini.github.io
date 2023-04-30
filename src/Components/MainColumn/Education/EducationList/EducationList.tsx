@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./EducationList.module.scss";
-import { Card } from "../../Common/Card/Card";
 import { EducationItem } from "../EducationItem/EducationItem";
+import { Card } from "../../../Common/Card/Card";
 
 type EducationItemType = {
   title: string;

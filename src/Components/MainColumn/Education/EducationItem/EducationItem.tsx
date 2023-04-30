@@ -1,6 +1,6 @@
 import React from "react";
-import DefaultProps from "../../../Utils/Props";
 import styles from "./EducationItem.module.scss";
+import DefaultProps from "../../../../Utils/Props";
 
 interface EducationItemProps extends DefaultProps {
   title: string;

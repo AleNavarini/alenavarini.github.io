@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ExperienceList.module.scss";
-import { Card } from "../../Common/Card/Card";
 import { ExperienceItem } from "../ExperienceItem/ExperienceItem";
+import { Card } from "../../../Common/Card/Card";
 
 type Experience = {
   title: string;

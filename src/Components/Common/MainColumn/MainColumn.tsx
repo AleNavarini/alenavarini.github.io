@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./MainColumn.module.scss";
-import { Summary } from "../../Summary/Summary";
-import { EducationList } from "../../Education/EducationList/EducationList";
-import { ExperienceList } from "../../Experience/ExperienceList/ExperienceList";
+import { Summary } from "../../MainColumn/Summary/Summary";
+import { EducationList } from "../../MainColumn/Education/EducationList/EducationList";
+import { ExperienceList } from "../../MainColumn/Experience/ExperienceList/ExperienceList";
 
 export const MainColumn = () => {
   return (
