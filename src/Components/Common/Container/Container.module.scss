@@ -8,3 +8,11 @@
   margin: 2rem auto;
   border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+  }
+}
