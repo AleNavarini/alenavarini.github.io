@@ -9,10 +9,17 @@
   border-radius: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
   .container {
     width: 100%;
     flex-direction: column;
     height: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 1rem 0;
+    width: 100%;
   }
 }
