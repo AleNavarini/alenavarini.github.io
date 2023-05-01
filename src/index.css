@@ -12,3 +12,6 @@ code {
     monospace;
 }
 
+* {
+  transition-duration: 200ms;
+}
