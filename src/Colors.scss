@@ -1,0 +1,45 @@
+.dark {
+  --bg-color: #222;
+  --card-bg-color: #333;
+  --text-color: #eee;
+  --subtitle-color: #999;
+  --link-color: #007bff;
+  --title-color: #fff;
+  --section-title-color: #ccc;
+}
+
+.light {
+  --bg-color: #f8f8f8;
+  --card-bg-color: #fff;
+  --text-color: #333;
+  --subtitle-color: #555;
+  --link-color: #007bff;
+  --title-color: #333;
+  --section-title-color: #555;
+}
+
+body,
+html,
+div {
+  background-color: var(--bg-color);
+}
+p,
+ul {
+  color: var(--text-color);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: var(--subtitle-color);
+}
+
+h1,
+h2 {
+  color: var(--title-color);
+}
+
+a {
+  color: var(--link-color);
+}

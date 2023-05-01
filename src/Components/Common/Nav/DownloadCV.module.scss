@@ -1,5 +1,10 @@
 .download {
   position: relative;
-  top: 1em;
-  color: black;
+  color: var(--text-color);
+
+  svg {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+  }
 }
