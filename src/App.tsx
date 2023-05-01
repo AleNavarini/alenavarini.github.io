@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import './Colors.scss'
 import { MainColumn } from "./Components/Common/MainColumn/MainColumn";
@@ -7,7 +7,17 @@ import Container from "./Components/Common/Container/Container";
 import { NavBar } from "./Components/Common/Nav/NavBar/NavBar";
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light')
+  const [theme, setTheme] = useState('')
+
+  useEffect(() => {
+    const theme = localStorage.getItem('theme')
+    if (theme) {
+      setTheme(theme)
+    } else {
+      setTheme('light')
+      localStorage.setItem('theme', 'light')
+    }
+  }, [])
 
   const themeToggleHandler = () => {
     if (theme === 'light') {
