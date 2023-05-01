@@ -13,6 +13,5 @@ export const Language = () => {
         <li>Portuguese: Basic</li>
       </ul>
     </Card>
-  )
-
+  );
 };
