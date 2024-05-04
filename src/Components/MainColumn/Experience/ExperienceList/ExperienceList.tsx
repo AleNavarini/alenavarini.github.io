@@ -14,7 +14,7 @@ export const ExperienceList = () => {
       title: "Backend Developer & DevOps - AgileEngine",
       period: "2022 - To the present",
       activities: [
-        "Maintained and developed backend applications using Python, achieving optimized ETL pipelines through Airflow DAGs",
+        "Maintained and developed backend applications using Python frameworks such as FastAPI and Django. Implemented applications leveraging LLMs such as GPT3.5 and Mistral",
         "Configured CICD pipelines using Gitlab CI and enforced code quality standards through SAST scanning, ensuring efficient and high-quality code delivery",
         "Collaborated with team members and stakeholders to streamline development processes and deliver exceptional results",
       ],

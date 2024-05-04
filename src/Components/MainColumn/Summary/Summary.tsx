@@ -18,14 +18,12 @@ export const Summary = () => {
       </div>
       <h1>Summary</h1>
       <p>
-        I am an experienced software engineer. I am passionate about technology
-        and constantly seek to improve my skills and knowledge. With a proactive
-        and solution-oriented approach, I thrive in challenging environments and
-        excel at problem-solving. I have a natural curiosity
-        for learning and am particularly drawn to emerging areas such as Data
-        Science and Machine Learning. I am committed to developing my expertise
-        and have pursued various projects and training opportunities to gain
-        practical knowledge.
+        Experienced  software  engineer  deeply  passionate  about  technology  and
+        always striving to improve. With a proactive and solution-oriented approach,
+        I  thrive  in  challenging  environments  and  excel  at  problem-solving  I  have  a
+        natural  curiosity  for  learning  and  enjoy  exploring  emerging  trends  in  the
+        field. Committed to refining my skills, I actively participate in projects and
+        training to gain practical experience.
       </p>
     </Card>
   );
