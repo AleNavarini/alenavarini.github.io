@@ -13,13 +13,18 @@ import EducationSection from './components/sections/EducationSection';
 import ExperienceSection from './components/sections/ExperienceSection';
 import LanguagesSection from './components/sections/LanguagesSection';
 import TechStackSection from './components/sections/TechStackSection';
+import Link from 'next/link';
+import DownloadIcon from './components/DownloadIcon';
 
 const Page: React.FC = () => {
   return (
     <main
       className={`min-h-screen bg-bgColor text-textColor ${inter.className}`}
     >
-      <header className="pt-4 container relative px-4">
+      <header className="pt-4 container relative px-4 flex items-center justify-end gap-4">
+        <Link href={`/alejandro_navarini_cv_en.pdf`} download>
+          <DownloadIcon />
+        </Link>
         <ThemeToggle />
       </header>
       <div className="container px-4 flex flex-col lg:flex-row gap-x-9 gap-y-4 py-4">
