@@ -21,6 +21,7 @@ const ThemeToggle = () => {
       <input
         type="checkbox"
         onChange={themeToggleHandler}
+        checked={theme === 'light'}
         className="theme-checkbox"
       />
     </div>
