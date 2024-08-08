@@ -5,13 +5,13 @@ export default function SummaryText() {
     <div>
       <SubHeading>Summary</SubHeading>
       <p>
-        Experienced software engineer deeply passionate about technology
-        andalways striving to improve. With a proactive and solution-oriented
-        approach, I thrive in challenging environments and excel at
-        problem-solving I have a natural curiosity for learning and enjoy
-        exploring emerging trends in the field. Committed to refining my skills,
-        I actively participate in projects and training to gain practical
-        experience.
+        Senior Backend Engineer with a passion for technology and a commitment
+        to continuous improvement. I excel in solving complex problems with a
+        proactive and solution-oriented mindset. My curiosity drives me to stay
+        updated with the latest industry trends, and my experience spans a wide
+        range of technology stacks. I specialize in creating scalable,
+        efficient, and resilient backend systems that meet the demands of
+        challenging environments.
       </p>
     </div>
   );

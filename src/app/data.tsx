@@ -5,39 +5,39 @@ import { ItemProps } from './types/Experience';
 
 export const experiences: Array<ItemProps> = [
   {
-    title: 'Backend Developer & DevOps - AgileEngine',
-    period: 'Nov. 2022 - To the present',
+    title: 'Senior Backend Engineer - AgileEngine',
+    period: 'Oct. 2022 - Present',
     description: [
-      'Maintained and developed backend applications using Python frameworks such as FastAPI and Django. Implemented applications leveraging LLMs such as GPT3.5 and Mistral',
-      'Configured CICD pipelines using Gitlab CI and enforced code quality standards through SAST scanning, ensuring efficient and high-quality code delivery',
-      'Collaborated with team members and stakeholders to streamline development processes and deliver exceptional results',
+      'Developed and maintained backend applications using FastAPI, Django, and Flask, delivering high-performance, scalable, and reliable solutions.',
+      'Implemented Machine Learning features, including Neural Networks and Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs), to significantly enhance product capabilities and user experience.',
+      'Collaborated with stakeholders to align project milestones with business objectives, ensuring seamless communication and successful execution throughout the development cycle.',
+      'Conducted technical interviews to assess engineering candidates, playing a key role in building a high-caliber team.',
     ],
   },
   {
     title: 'FullStack Developer - Mutual de Socios de AMR',
-    period: 'Jan. 2021 - Nov. 2022',
+    period: 'Jan. 2021 - Oct. 2022',
     description: [
-      'Maintained and developed robust applications using NET Core, C#, and NextJS with both SQL and NoSQL databases, achieving efficient and effective solutions.',
-      'Configured CI/CD pipelines and implemented application containerization and container orchestration using Kubernetes, reducing deployment time.',
-      'Collaborated with team members and stakeholders to deliver high-quality results and contribute to the success of the team.',
+      'Developed and maintained robust full-stack applications using .NET Core for backend and Next.js for frontend, optimizing performance with both SQL and NoSQL databases.',
+      'Configured and managed CI/CD pipelines, implementing Docker and Kubernetes for containerization and orchestration, reducing deployment times and improving system reliability.',
+      'Collaborated effectively with team members and stakeholders, consistently delivering high-quality solutions that contributed to project success.',
     ],
   },
   {
-    title: 'Developer - KRETZ SA',
+    title: 'Backend Developer - KRETZ SA',
     period: 'Dec. 2019 - Jul. 2020',
     description: [
-      "Performed maintenance and development tasks on Kretz S.A.'s software using JAVA, GitLab, Ionic, HTML, and CSS.",
-      'Collaborated with team members to identify and resolve issues and improve software quality.',
-      'Contributed to the design and implementation of new software features to enhance user experience and increase efficiency.',
+      'Maintained and developed software for Kretz S.A. using Java, GitLab, Ionic, HTML, and CSS, ensuring code quality and system stability.',
+      'Collaborated with the team to identify and resolve software issues, improving overall quality and reliability.',
+      'Contributed to the design and implementation of new features, enhancing user experience and operational efficiency.',
     ],
   },
   {
-    title: 'Web Developer - Contractor Freelance',
-    period: '2019 - 2020',
+    title: 'Web Developer - Freelance Contractor',
+    period: 'Jan. 2019 - Jul. 2019',
     description: [
-      'Worked as a Freelance Web Developer, responsible for both Backend and Frontend development, as well as the structure and database connection for a medical blog.',
-      'Utilized Django, HTML, CSS, Bootstrap, GitHub, and PostgreSQL to deliver an efficient and effective solution to the client.',
-      'Occasionally performed maintenance work to ensure the website runs smoothly and efficiently.',
+      'Developed a web application for a medical blog using Python with Django, a SQL database, and frontend technologies.',
+      'Efficiently managed the deployment process, ensuring the application operated seamlessly and reliably.',
     ],
   },
 ];
@@ -93,7 +93,7 @@ export const stack: Array<ItemProps> = [
     title: 'Tech Stack',
     description: [
       'Python, FastAPI, Django, Flask',
-      'LLMs, RAG, AI',
+      'LLMs, RAG, AI/ML',
       'Next.js, React, TypeScript',
       'AWS, Terraform',
       'Docker, Kubernetes, CI/CD, GitOps',
