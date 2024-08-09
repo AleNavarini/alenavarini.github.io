@@ -15,7 +15,7 @@ export const experiences: Array<ItemProps> = [
     ],
   },
   {
-    title: 'FullStack Developer - Mutual de Socios de AMR',
+    title: 'FullStack Engineer - Mutual de Socios de AMR',
     period: 'Jan. 2021 - Oct. 2022',
     description: [
       'Developed and maintained robust full-stack applications using .NET Core for backend and Next.js for frontend, optimizing performance with both SQL and NoSQL databases.',
@@ -24,7 +24,7 @@ export const experiences: Array<ItemProps> = [
     ],
   },
   {
-    title: 'Backend Developer - KRETZ SA',
+    title: 'Backend Engineer - KRETZ SA',
     period: 'Dec. 2019 - Jul. 2020',
     description: [
       'Maintained and developed software for Kretz S.A. using Java, GitLab, Ionic, HTML, and CSS, ensuring code quality and system stability.',
