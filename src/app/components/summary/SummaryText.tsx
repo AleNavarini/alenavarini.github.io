@@ -11,7 +11,8 @@ export default function SummaryText() {
         updated with the latest industry trends, and my experience spans a wide
         range of technology stacks. I specialize in creating scalable,
         efficient, and resilient backend systems that meet the demands of
-        challenging environments.
+        challenging environments. My main areas of interest are Machine Learning and 
+        Finance.
       </p>
     </div>
   );
