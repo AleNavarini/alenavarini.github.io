@@ -44,17 +44,17 @@ export const experiences: Array<ItemProps> = [
 
 export const education: Array<ItemProps> = [
   {
-    title: 'Information Systems Engineering',
-    period: '2017 - 2023',
-    description: [
-      'Information Systems Engineer. Universidad Tecnológica Nacional FRRO.',
-    ],
-  },
-  {
     title: 'MSc in Finance',
     period: '2025 - 2027',
     description: [
       'Master of Science in Finance, Universidad del CEMA',
+    ],
+  },
+  {
+    title: 'Information Systems Engineering',
+    period: '2017 - 2023',
+    description: [
+      'Information Systems Engineer. Universidad Tecnológica Nacional FRRO.',
     ],
   },
 ];
