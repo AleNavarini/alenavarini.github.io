@@ -50,6 +50,13 @@ export const education: Array<ItemProps> = [
       'Information Systems Engineer. Universidad Tecnológica Nacional FRRO.',
     ],
   },
+  {
+    title: 'MSc in Finance',
+    period: '2025 - 2027',
+    description: [
+      'Master of Science in Finance, Universidad del CEMA',
+    ],
+  },
 ];
 
 export const contactInformation: Array<ItemProps> = [
