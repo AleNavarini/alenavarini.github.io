@@ -8,38 +8,30 @@ export const experiences: Array<ItemProps> = [
     title: 'Senior Backend Engineer - AgileEngine',
     period: 'Oct. 2022 - Present',
     description: [
-      'Developed and maintained backend applications using FastAPI, Django, and Flask, delivering high-performance, scalable, and reliable solutions.',
-      'Implemented Machine Learning features, including Neural Networks and Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs), to significantly enhance product capabilities and user experience.',
-      'Collaborated with stakeholders to align project milestones with business objectives, ensuring seamless communication and successful execution throughout the development cycle.',
-      'Conducted technical interviews to assess engineering candidates, playing a key role in building a high-caliber team.',
+      'Optimized a Python application with parallelism, boosting performance by 60% and enabling horizontal scaling to support 30x more requests.',
+      'Automated an EC2 deployment pipeline, cutting manual work by 1 hour per deployment and reducing errors by 25%.',
+      'Developed a machine learning model detecting fraudulent form submissions with 70% accuracy, reducing manual verification by 30%.',
+      'Proposed and developed the initial version of an LLM-based RAG product, accelerating marketers’ data retrieval time by 24 hours',
     ],
   },
   {
     title: 'FullStack Engineer - Mutual de Socios de AMR',
     period: 'Jan. 2021 - Oct. 2022',
     description: [
-      'Developed and maintained robust full-stack applications using .NET Core for backend and Next.js for frontend, optimizing performance with both SQL and NoSQL databases.',
-      'Configured and managed CI/CD pipelines, implementing Docker and Kubernetes for containerization and orchestration, reducing deployment times and improving system reliability.',
-      'Collaborated effectively with team members and stakeholders, consistently delivering high-quality solutions that contributed to project success.',
+      'Developed a centralized database access UI portal for credit risk analysts, improving data retrieval speed by 50% and enabling faster, more informed decision-making for evaluating lines of credit, ultimately enhancing the efficiency of credit application processing.',
+      'Developed an automated payment feature by integrating third-party APIs, optimizing the user experience with seamless, efficient, and reliable service transactions.',
+      'Automated deployment pipelines, reducing failure rates by 20% while boosting deployment and backup speed by 80%',
+      'Onboarded and mentored junior engineers to enhance team productivity and skill development.',
     ],
   },
   {
     title: 'Backend Engineer - KRETZ SA',
     period: 'Dec. 2019 - Jul. 2020',
     description: [
-      'Maintained and developed software for Kretz S.A. using Java, GitLab, Ionic, HTML, and CSS, ensuring code quality and system stability.',
-      'Collaborated with the team to identify and resolve software issues, improving overall quality and reliability.',
-      'Contributed to the design and implementation of new features, enhancing user experience and operational efficiency.',
+      'Developed and implemented a product loading feature, enhancing system performance by 20%.',
+      'Refactored Java backend systems to align with best practices, improving maintainability, scalability, and performance.',
     ],
-  },
-  {
-    title: 'Web Developer - Freelance Contractor',
-    period: 'Jan. 2019 - Jul. 2019',
-    description: [
-      'Developed a web application for a medical blog using Python with Django, a SQL database, and frontend technologies.',
-      'Efficiently managed the deployment process, ensuring the application operated seamlessly and reliably.',
-    ],
-  },
+  }
 ];
 
 export const education: Array<ItemProps> = [
